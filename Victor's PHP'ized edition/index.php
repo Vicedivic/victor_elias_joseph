@@ -11,18 +11,14 @@
 <h4><p>I am Elias Gideon Bruhn and I am 13 years old. I was born in Hiller�d, Denmark. <br> I lived in Denmark until I was 12 years old, and then I moved to the Czech Republic.<br></p></h4>
 <p> <h3>Click on the links below to see more about me... </h3></p>
 
-<form method="get" action="Sport%20and%20food.php">
   <div class="btn-group">
     <button>Sport and food</button>
   </div>
 
-</form>
 
-<form method="get" action="pets.php">
   <div class="btn-group">
     <button>Pets</button>
   </div>
-</form>
 
 
 <table id="customers">
@@ -83,7 +79,7 @@
 <h3>Participate in our Competition!</h3>
 
 <div>
-  <form action="competition.php" method="post"><!-- //go to a new page-->
+  <form action="competition.php" method="post" netlify><!-- //go to a new page-->
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
