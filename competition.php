@@ -8,12 +8,10 @@
 <body>
 <h1> Thank You for Participating in our Competition!</h1>
 <h3> Wait and find out if you won! You can either win a bag of money or a piece of cake!</h3>
-<p>
-<img src="money.jpg" height="250px" width="200px"/>
-<img src="mobleycake.jpg" height="220px" width="220px"/>
+<img src="money.jpg" alt="moneytos" height="250px" width="200px"/>
+<img src="mobleycake.jpg" alt="cake" height="220px" width="220px"/>
 
-</button>
-<p>
+
 <style>
  button {
         background-color: #4CAF50; /* Green */
@@ -78,7 +76,20 @@
     </style>
     <button>Home</button>
   </div>
+  <h3><?php
+  $name = $_GET['firstname'];
+  $email = $_GET['email_address'];
+  $country = $_GET['country'];
 
+  print 'You participated with this information: <br>';
+    $content = "Name: " . $name . "<br> Email: " . $email . "<br> Favorite country: " . $country;
+    echo $content;
+
+    $recipients = "$email, joseph@lfpost.dk, eliasbruhn123@gmail.com, victor@lfpost.dk";
+
+    mail('victor@lfpost.dk', "$email participated in your competition!", $content);
+
+    ?></h3>
 </form>
 </body>
 </html>
