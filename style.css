@@ -15,6 +15,12 @@ button:not(:last-child), a>button:not(:last-child) {
 button:hover, a>button:hover {
   background-color: #3e8e41;
 }
+
+.to-the-top {
+  cursor: crosshair;
+}
+
+
 a {
   color: white;
 }
