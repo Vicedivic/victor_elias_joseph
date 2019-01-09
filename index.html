@@ -120,7 +120,13 @@
 </button>
 <button type="button"
             onclick="document.getElementById('demo').innerHTML = Date()">
-<a href="index.html">To the top!</a>
+<button id="to-the-top" onclick="toTheTop()">To the top!</button>
 </button>
+<script>
+  function toTheTop() {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  }
+</script>
+
  </body>
 </html>
