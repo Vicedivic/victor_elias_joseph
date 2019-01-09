@@ -17,13 +17,30 @@ button:hover, a > button:hover {
 }
 
 .to-the-top {
-  cursor: crosshair;
+  cursor: pointer;
 }
 
-
-a {
+.special-buttons {
+  background-color: #4CAF50; /* Green */
   color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Century Gothic";
+  border-radius: 10px;
+  height:45px;
+  width:170px;
+  border: 1px solid green; /* Green border */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
 }
+
+.special-buttons:hover {
+  background-color: #3e8e41;
+}
+
 html {
   font-family: "Century Gothic";
 }
