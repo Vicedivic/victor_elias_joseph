@@ -35,37 +35,35 @@
   <h1>My pets</h1>
 </head>
 <body>
+<a href="index.html"><button>Home</button></a>
+<a href="Sport%20and%20food.html"><button>Sport and Food</button></a>
+<style>
+  .btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 0px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
 
-<form method="get" action="Sport%20and%20food.html">
-  <div class="btn-group">
-    <style>
-      .btn-group button {
-        background-color: #4CAF50; /* Green background */
-        border: 0px solid green; /* Green border */
-        color: white; /* White text */
-        padding: 10px 24px; /* Some padding */
-        cursor: pointer; /* Pointer/hand icon */
-        float: left; /* Float the buttons side by side */
-      }
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-      /* Clear floats (clearfix hack) */
-      .btn-group:after {
-        content: "";
-        clear: both;
-        display: table;
-      }
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
 
-      .btn-group button:not(:last-child) {
-        border-right: none; /* Prevent double borders */
-      }
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: #3e8e41;
+  }
+</style>
 
-      /* Add a background color on hover */
-      .btn-group button:hover {
-        background-color: #3e8e41;
-      }
-    </style>
-    <button>Sport and food</button>
-  </div>
 
 </form>
 <p>
