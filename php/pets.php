@@ -9,8 +9,8 @@
 
 <h1>My pets</h1>
 
-<a href="index.html"><button>Home</button></a>
-<a href="Sport%20and%20food.html"><button>Sport and Food</button></a>
+<a href="index.php"><button>Home</button></a>
+<a href="Sport%20and%20food.php"><button>Sport and Food</button></a>
 <br><br>
 <p>I have had a rabbit and two budgerigars, but I don't have any pets anymore.</p>
 <p>My budgerigars died a year before I moved out of Denmark, and I sold my rabbit. Now my favorite animal is a platypus.</p>

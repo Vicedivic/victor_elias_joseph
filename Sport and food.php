@@ -9,8 +9,8 @@
 <h1>My favorite sport</h1>
 <h3>Soccer is my favorite sport</h3>
 
-<a href="index.html"><button>Home</button></a>
-<a href="pets.html"><button>Pets</button></a>
+<a href="index.php"><button>Home</button></a>
+<a href="pets.php"><button>Pets</button></a>
 <br><br>
 <ul>
   <li>I like kicking balls</li>
